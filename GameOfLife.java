@@ -32,7 +32,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  */
 public class GameOfLife extends javax.swing.JFrame {
     
-    //sets the size of the game area
+    //sets the size of the game area, can be adjusted on need
     final int wd=80, hg=45;
     //2 dimensional arrays to store current generation
     boolean[][] currentGen = new boolean[hg][wd];
